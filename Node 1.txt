@@ -1,0 +1,69 @@
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$ node -v
+v18.16.0
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$ npm -v
+9.5.1
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$ npm install -g express-generator
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+changed 10 packages in 6s
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$ express --view=ejs nodejs-tutorial-app
+
+   create : nodejs-tutorial-app\
+   create : nodejs-tutorial-app\public\
+   create : nodejs-tutorial-app\public\javascripts\
+   create : nodejs-tutorial-app\public\images\
+   create : nodejs-tutorial-app\public\stylesheets\
+   create : nodejs-tutorial-app\public\stylesheets\style.css
+   create : nodejs-tutorial-app\routes\
+   create : nodejs-tutorial-app\routes\index.js
+   create : nodejs-tutorial-app\routes\users.js
+   create : nodejs-tutorial-app\views\
+   create : nodejs-tutorial-app\views\error.ejs
+   create : nodejs-tutorial-app\views\index.ejs
+   create : nodejs-tutorial-app\app.js
+   create : nodejs-tutorial-app\package.json
+   create : nodejs-tutorial-app\bin\
+   create : nodejs-tutorial-app\bin\www
+
+   change directory:
+     > cd nodejs-tutorial-app
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > SET DEBUG=nodejs-tutorial-app:* & npm start
+
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~
+$ cd nodejs-tutorial-app
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~/nodejs-tutorial-app
+$ npm install
+
+added 54 packages, and audited 55 packages in 11s
+
+4 vulnerabilities (3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Olamide@DESKTOP-4O0F6IC MINGW64 ~/nodejs-tutorial-app
+$ npm start
+
+> nodejs-tutorial-app@0.0.0 start
+> node ./bin/www
+
+
